@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(135deg, #f1f0f5, #463e44);
+    background: linear-gradient(135deg, #f1f0f5, #eb56c6);
     color: #fff;
     text-align: center;
 }
@@ -57,4 +57,5 @@ button:hover {
     margin-top: 30px;
     font-size: 20px;
     color: #f7f2df;
+
 }
