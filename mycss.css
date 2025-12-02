@@ -84,14 +84,9 @@
         animation: fall 2s linear forwards;
     }
 
-    @keyframes fall {
-        to {
-            transform: translateY(110vh);
-            opacity: 1;
-        }
-    }
 
     @keyframes fadeIn {
         from { opacity: 0; transform: translateY(10px); }
         to { opacity: 1; transform: translateY(0); }
     }
+
