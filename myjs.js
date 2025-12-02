@@ -14,22 +14,7 @@ function showLove() {
     document.getElementById("surprise").style.display = "block";
 
     
-    for (let i = 0; i < 45; i++) {
-        const heart = document.createElement("span");
-        heart.classList.add("heart");
-
-        
-        const colors = ["#ff0000", "#ff69b4", "#ff1493", "#ffd700", "#8a2be2"];
-        heart.style.color = colors[Math.floor(Math.random() * colors.length)];
-
-        
-        heart.style.left = Math.random() * window.innerWidth + "px";
-
-        heart.textContent = "❤️";
-        document.body.appendChild(heart);
-
-        setTimeout(() => heart.remove(), 2000);
-    }
+ 
 }
 
 
@@ -40,4 +25,5 @@ function moveButton() {
     btn.style.position = "absolute";
     btn.style.left = x + "px";
     btn.style.top = y + "px";
+
 }
